@@ -5,6 +5,8 @@ namespace CommBank.Models;
 
 public class Goal
 {
+    public string? Icon { get; set; }
+
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
